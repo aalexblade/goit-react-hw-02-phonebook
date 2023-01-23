@@ -5,7 +5,6 @@ export const Form = styled.form`
   flex-direction: column;
   border: 1px solid;
   padding: 16px;
-  margin-left: 20px;
   border-radius: 5px;
   gap: 8px;
   `;
@@ -26,14 +25,15 @@ export const Button = styled.button`
   width: 130px;
   height: 28px;
   border-radius: 5px;
-  background-color: #ffffff;
-  border: 1px solid #999999;
+  background-color: #fff;
+  border: 1px solid #999;
   cursor: pointer;
   :hover {
-    background-color: #1212;
+    background-color: #038bfa;
   }
 `;
 
-export const Wrapper = styled.div`
-padding-left: 24px;
+// PhoneBookWrapper
+export const PhoneBookWrapper = styled.div`
+  padding: 50px;
 `;
